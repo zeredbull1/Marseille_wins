@@ -9,60 +9,112 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from datetime import datetime
+import os
 
+# Setup Chrome options
 options = Options()
 options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
 
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = options)
-
-url = "https://fbref.com/en/squads/5725cc7b/2024-2025/matchlogs/all_comps/misc/Marseille-Match-Logs-All-Competitions"
-
-driver.get(url)
-
-time.sleep(10) # Giving time to cloudfare to process
-
-while "Just a moment" in driver.title:
-        print("Still on Cloudflare page, waiting longer...")
-        time.sleep(15)
-
-WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "table#matchlogs_for"))
-        )
-        
-# Extract the table
-table = driver.find_element(By.CSS_SELECTOR, "table#matchlogs_for")
-rows = table.find_elements(By.CSS_SELECTOR, "tbody tr")
-
-matches = []
-
-for row in rows:
-    try:
-        # Skip rows without actual match data
-        cells = row.find_elements(By.TAG_NAME, "th")
-        if not cells or "divider" in row.get_attribute("class"):
-            continue
-        
-        # Extract date 
-        date_element = row.find_element(By.CSS_SELECTOR, "th[data-stat='date']")
-        date_text = date_element.text.strip()
-
-        match_date = datetime.strptime(date_text, "%Y-%m-%d")
-
-        matches.append({'date': match_date})
-    
-    except Exception as e:
-        print(f"Error extracting match data: {e}")
-        continue
-
-df = pd.DataFrame(matches)
-df['rest_days'] = df['date'] - df['date'].shift(1) # calculating day difference between current day and previous match day 
-print(df)
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 
-output_file = 'data/marseille_matches_with_rest_days_2024.csv'
-df.to_csv(output_file, index=False)
+def team_matches_scraper(team):
+    # URL to scrape
+    url = f"https://fbref.com/en/squads/5725cc7b/2024-2025/matchlogs/all_comps/misc/{team}-Match-Logs-All-Competitions"
+
+    driver.get(url)
+
+    time.sleep(3)
+
+    cloudflare_count = 0
+    max_cloudflare_attempts = 3
+
+    while "Just a moment" in driver.title and cloudflare_count < max_cloudflare_attempts:
+        print(f"Cloudflare detected ({cloudflare_count+1}/{max_cloudflare_attempts}), waiting longer...")
+        time.sleep(3)
+        cloudflare_count += 1
+
+    WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "table#matchlogs_for"))
+    )
+
+    table = driver.find_element(By.CSS_SELECTOR, "table#matchlogs_for")
+
+    rows = table.find_elements(By.CSS_SELECTOR, "tr[data-row]")
+
+    matches = []
+
+    for row in rows:
+        try:
+            if "divider" in row.get_attribute("class"):
+                continue
+
+            date_element = row.find_element(By.CSS_SELECTOR, "th[data-stat='date']")
+            date_text = date_element.text.strip()
+            
+            venue_element = row.find_element(By.CSS_SELECTOR, "td[data-stat='venue']")
+            venue_text = venue_element.text.strip()
+            
+            opponent_element = row.find_element(By.CSS_SELECTOR, "td[data-stat='opponent']")
+            opponent_text = opponent_element.text.strip()
+            
+            match_date = datetime.strptime(date_text, "%Y-%m-%d")
+            
+            # Add match data
+            match_data = {
+                'date': match_date,
+                'team': team,
+                'venue_team': venue_text,
+                'opponent': opponent_text
+            }
+            
+            print(f"Extracted match: {match_date} - {venue_text} - {opponent_text}")
+            matches.append(match_data)
+        except Exception as e :
+            print(f"erorr with this row: {e}")
+
+
+
+    df = pd.DataFrame(matches)
+
+    # Sort by date and calculate rest days
+    df = df.sort_values('date')
+    df[f'rest_days_{team}'] = (df['date'] - df['date'].shift(1)).dt.days
+    df[f'rest_days_{team}'] = df[f'rest_days_{team}'].fillna(0).astype(int)
+
+    print("\nExtracted data:")
+    print(df)
+
+    # Save to CSV
+    output_file = f'data/{team}_matches_with_rest_days_2024.csv'
+    df.to_csv(output_file, index=False)
+    print(f"Data saved to {output_file}")
+
+Ligue1_teams_2024 = [
+    "Paris-Saint-Germain",
+    "Marseille",
+    "Monaco",
+    "Nice",
+    "Lille",
+    "Lyon",
+    "Strasbourg",
+    "Lens",
+    "Rennes",
+    "Toulouse",
+    "Brest",
+    "Le-Havre",
+    "Nantes",
+    "Auxerre",
+    "Angers",
+    "Reims",
+    "Montpellier",
+    "Saint-Etienne"
+]
+
+for team in Ligue1_teams_2024:
+    team_matches_scraper(team)
 
 

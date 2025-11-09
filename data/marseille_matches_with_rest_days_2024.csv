@@ -1,37 +1,37 @@
-date,rest_days
-2024-08-17,
-2024-08-25,8 days
-2024-08-31,6 days
-2024-09-14,14 days
-2024-09-22,8 days
-2024-09-29,7 days
-2024-10-04,5 days
-2024-10-20,16 days
-2024-10-27,7 days
-2024-11-03,7 days
-2024-11-08,5 days
-2024-11-23,15 days
-2024-12-01,8 days
-2024-12-08,7 days
-2024-12-14,6 days
-2024-12-22,8 days
-2025-01-05,14 days
-2025-01-11,6 days
-2025-01-14,3 days
-2025-01-19,5 days
-2025-01-26,7 days
-2025-02-02,7 days
-2025-02-09,7 days
-2025-02-15,6 days
-2025-02-22,7 days
-2025-03-02,8 days
-2025-03-08,6 days
-2025-03-16,8 days
-2025-03-29,13 days
-2025-04-06,8 days
-2025-04-12,6 days
-2025-04-19,7 days
-2025-04-27,8 days
-2025-05-04,7 days
-2025-05-10,6 days
-2025-05-17,7 days
+date,team,venue_team,opponent,rest_days_Marseille
+2024-08-17,Marseille,Away,Brest,0
+2024-08-25,Marseille,Home,Reims,8
+2024-08-31,Marseille,Away,Toulouse,6
+2024-09-14,Marseille,Home,Nice,14
+2024-09-22,Marseille,Away,Lyon,8
+2024-09-29,Marseille,Away,Strasbourg,7
+2024-10-04,Marseille,Home,Angers,5
+2024-10-20,Marseille,Away,Montpellier,16
+2024-10-27,Marseille,Home,Paris S-G,7
+2024-11-03,Marseille,Away,Nantes,7
+2024-11-08,Marseille,Home,Auxerre,5
+2024-11-23,Marseille,Away,Lens,15
+2024-12-01,Marseille,Home,Monaco,8
+2024-12-08,Marseille,Away,Saint-Étienne,7
+2024-12-14,Marseille,Home,Lille,6
+2024-12-22,Marseille,Away,Saint-Étienne,8
+2025-01-05,Marseille,Home,Le Havre,14
+2025-01-11,Marseille,Away,Rennes,6
+2025-01-14,Marseille,Home,Lille,3
+2025-01-19,Marseille,Home,Strasbourg,5
+2025-01-26,Marseille,Away,Nice,7
+2025-02-02,Marseille,Home,Lyon,7
+2025-02-09,Marseille,Away,Angers,7
+2025-02-15,Marseille,Home,Saint-Étienne,6
+2025-02-22,Marseille,Away,Auxerre,7
+2025-03-02,Marseille,Home,Nantes,8
+2025-03-08,Marseille,Home,Lens,6
+2025-03-16,Marseille,Away,Paris S-G,8
+2025-03-29,Marseille,Away,Reims,13
+2025-04-06,Marseille,Home,Toulouse,8
+2025-04-12,Marseille,Away,Monaco,6
+2025-04-19,Marseille,Home,Montpellier,7
+2025-04-27,Marseille,Home,Brest,8
+2025-05-04,Marseille,Away,Lille,7
+2025-05-10,Marseille,Away,Le Havre,6
+2025-05-17,Marseille,Home,Rennes,7
