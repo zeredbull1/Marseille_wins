@@ -1,37 +1,43 @@
 date,team,venue_team,opponent,rest_days_Reims
-2024-08-17,Reims,Away,Brest,0
-2024-08-25,Reims,Home,Reims,8
-2024-08-31,Reims,Away,Toulouse,6
-2024-09-14,Reims,Home,Nice,14
-2024-09-22,Reims,Away,Lyon,8
-2024-09-29,Reims,Away,Strasbourg,7
-2024-10-04,Reims,Home,Angers,5
-2024-10-20,Reims,Away,Montpellier,16
-2024-10-27,Reims,Home,Paris S-G,7
-2024-11-03,Reims,Away,Nantes,7
-2024-11-08,Reims,Home,Auxerre,5
-2024-11-23,Reims,Away,Lens,15
-2024-12-01,Reims,Home,Monaco,8
-2024-12-08,Reims,Away,Saint-Étienne,7
-2024-12-14,Reims,Home,Lille,6
-2024-12-22,Reims,Away,Saint-Étienne,8
-2025-01-05,Reims,Home,Le Havre,14
-2025-01-11,Reims,Away,Rennes,6
-2025-01-14,Reims,Home,Lille,3
-2025-01-19,Reims,Home,Strasbourg,5
-2025-01-26,Reims,Away,Nice,7
-2025-02-02,Reims,Home,Lyon,7
-2025-02-09,Reims,Away,Angers,7
-2025-02-15,Reims,Home,Saint-Étienne,6
-2025-02-22,Reims,Away,Auxerre,7
-2025-03-02,Reims,Home,Nantes,8
-2025-03-08,Reims,Home,Lens,6
-2025-03-16,Reims,Away,Paris S-G,8
-2025-03-29,Reims,Away,Reims,13
-2025-04-06,Reims,Home,Toulouse,8
-2025-04-12,Reims,Away,Monaco,6
-2025-04-19,Reims,Home,Montpellier,7
-2025-04-27,Reims,Home,Brest,8
-2025-05-04,Reims,Away,Lille,7
-2025-05-10,Reims,Away,Le Havre,6
-2025-05-17,Reims,Home,Rennes,7
+2024-08-17,Reims,Home,Lille,0
+2024-08-25,Reims,Away,Marseille,8
+2024-09-01,Reims,Home,Rennes,7
+2024-09-15,Reims,Away,Nantes,14
+2024-09-21,Reims,Home,Paris S-G,6
+2024-09-29,Reims,Away,Angers,8
+2024-10-06,Reims,Home,Montpellier,7
+2024-10-20,Reims,Away,Auxerre,14
+2024-10-26,Reims,Home,Brest,6
+2024-11-03,Reims,Away,Toulouse,8
+2024-11-10,Reims,Away,Le Havre,7
+2024-11-23,Reims,Home,Lyon,13
+2024-11-29,Reims,Home,Lens,6
+2024-12-08,Reims,Away,Strasbourg,9
+2024-12-14,Reims,Home,Monaco,6
+2024-12-22,Reims,Away,AS Mutzig,8
+2025-01-04,Reims,Away,Saint-Étienne,13
+2025-01-11,Reims,Home,Nice,7
+2025-01-14,Reims,Home,Monaco,3
+2025-01-19,Reims,Home,Le Havre,5
+2025-01-25,Reims,Away,Paris S-G,6
+2025-02-02,Reims,Home,Nantes,8
+2025-02-06,Reims,Away,Bourgoin-Jal.,4
+2025-02-09,Reims,Away,Lyon,3
+2025-02-16,Reims,Home,Angers,7
+2025-02-21,Reims,Away,Rennes,5
+2025-02-25,Reims,Away,Angers,4
+2025-02-28,Reims,Away,Monaco,3
+2025-03-09,Reims,Home,Auxerre,9
+2025-03-16,Reims,Away,Brest,7
+2025-03-29,Reims,Home,Marseille,13
+2025-04-02,Reims,Away,Cannes,4
+2025-04-06,Reims,Home,Strasbourg,4
+2025-04-11,Reims,Away,Lens,5
+2025-04-20,Reims,Home,Toulouse,9
+2025-04-27,Reims,Away,Montpellier,7
+2025-05-02,Reims,Away,Nice,5
+2025-05-10,Reims,Home,Saint-Étienne,8
+2025-05-17,Reims,Away,Lille,7
+2025-05-21,Reims,Away,Metz,4
+2025-05-24,Reims,Neutral,Paris S-G,3
+2025-05-29,Reims,Home,Metz,5

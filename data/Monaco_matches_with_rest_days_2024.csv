@@ -1,37 +1,48 @@
 date,team,venue_team,opponent,rest_days_Monaco
-2024-08-17,Monaco,Away,Brest,0
-2024-08-25,Monaco,Home,Reims,8
-2024-08-31,Monaco,Away,Toulouse,6
-2024-09-14,Monaco,Home,Nice,14
-2024-09-22,Monaco,Away,Lyon,8
-2024-09-29,Monaco,Away,Strasbourg,7
-2024-10-04,Monaco,Home,Angers,5
-2024-10-20,Monaco,Away,Montpellier,16
-2024-10-27,Monaco,Home,Paris S-G,7
-2024-11-03,Monaco,Away,Nantes,7
-2024-11-08,Monaco,Home,Auxerre,5
-2024-11-23,Monaco,Away,Lens,15
-2024-12-01,Monaco,Home,Monaco,8
-2024-12-08,Monaco,Away,Saint-Étienne,7
-2024-12-14,Monaco,Home,Lille,6
-2024-12-22,Monaco,Away,Saint-Étienne,8
-2025-01-05,Monaco,Home,Le Havre,14
-2025-01-11,Monaco,Away,Rennes,6
-2025-01-14,Monaco,Home,Lille,3
-2025-01-19,Monaco,Home,Strasbourg,5
-2025-01-26,Monaco,Away,Nice,7
-2025-02-02,Monaco,Home,Lyon,7
-2025-02-09,Monaco,Away,Angers,7
-2025-02-15,Monaco,Home,Saint-Étienne,6
-2025-02-22,Monaco,Away,Auxerre,7
-2025-03-02,Monaco,Home,Nantes,8
-2025-03-08,Monaco,Home,Lens,6
-2025-03-16,Monaco,Away,Paris S-G,8
-2025-03-29,Monaco,Away,Reims,13
-2025-04-06,Monaco,Home,Toulouse,8
-2025-04-12,Monaco,Away,Monaco,6
-2025-04-19,Monaco,Home,Montpellier,7
-2025-04-27,Monaco,Home,Brest,8
-2025-05-04,Monaco,Away,Lille,7
-2025-05-10,Monaco,Away,Le Havre,6
-2025-05-17,Monaco,Home,Rennes,7
+2024-08-17,Monaco,Home,Saint-Étienne,0
+2024-08-24,Monaco,Away,Lyon,7
+2024-09-01,Monaco,Home,Lens,8
+2024-09-14,Monaco,Away,Auxerre,13
+2024-09-19,Monaco,Home,es Barcelona,5
+2024-09-22,Monaco,Home,Le Havre,3
+2024-09-28,Monaco,Home,Montpellier,6
+2024-10-02,Monaco,Away,hr Dinamo Zagreb,4
+2024-10-05,Monaco,Away,Rennes,3
+2024-10-18,Monaco,Home,Lille,13
+2024-10-22,Monaco,Home,rs Red Star,4
+2024-10-27,Monaco,Away,Nice,5
+2024-11-01,Monaco,Home,Angers,5
+2024-11-05,Monaco,Away,it Bologna,4
+2024-11-09,Monaco,Away,Strasbourg,4
+2024-11-22,Monaco,Home,Brest,13
+2024-11-27,Monaco,Home,pt Benfica,5
+2024-12-01,Monaco,Away,Marseille,4
+2024-12-07,Monaco,Home,Toulouse,6
+2024-12-11,Monaco,Away,eng Arsenal,4
+2024-12-14,Monaco,Away,Reims,3
+2024-12-18,Monaco,Home,Paris S-G,4
+2024-12-22,Monaco,Away,L'Union,4
+2025-01-05,Monaco,Neutral,Paris S-G,14
+2025-01-10,Monaco,Away,Nantes,5
+2025-01-14,Monaco,Away,Reims,4
+2025-01-17,Monaco,Away,Montpellier,3
+2025-01-21,Monaco,Home,eng Aston Villa,4
+2025-01-25,Monaco,Home,Rennes,4
+2025-01-29,Monaco,Away,it Inter,4
+2025-02-01,Monaco,Home,Auxerre,3
+2025-02-07,Monaco,Away,Paris S-G,6
+2025-02-12,Monaco,Home,pt Benfica,5
+2025-02-15,Monaco,Home,Nantes,3
+2025-02-18,Monaco,Away,pt Benfica,3
+2025-02-22,Monaco,Away,Lille,4
+2025-02-28,Monaco,Home,Reims,6
+2025-03-07,Monaco,Away,Toulouse,7
+2025-03-15,Monaco,Away,Angers,8
+2025-03-29,Monaco,Home,Nice,14
+2025-04-05,Monaco,Away,Brest,7
+2025-04-12,Monaco,Home,Marseille,7
+2025-04-19,Monaco,Home,Strasbourg,7
+2025-04-26,Monaco,Away,Le Havre,7
+2025-05-03,Monaco,Away,Saint-Étienne,7
+2025-05-10,Monaco,Home,Lyon,7
+2025-05-17,Monaco,Away,Lens,7

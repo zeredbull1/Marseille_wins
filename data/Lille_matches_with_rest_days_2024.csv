@@ -1,37 +1,52 @@
 date,team,venue_team,opponent,rest_days_Lille
-2024-08-17,Lille,Away,Brest,0
-2024-08-25,Lille,Home,Reims,8
-2024-08-31,Lille,Away,Toulouse,6
-2024-09-14,Lille,Home,Nice,14
-2024-09-22,Lille,Away,Lyon,8
-2024-09-29,Lille,Away,Strasbourg,7
-2024-10-04,Lille,Home,Angers,5
-2024-10-20,Lille,Away,Montpellier,16
-2024-10-27,Lille,Home,Paris S-G,7
-2024-11-03,Lille,Away,Nantes,7
-2024-11-08,Lille,Home,Auxerre,5
-2024-11-23,Lille,Away,Lens,15
-2024-12-01,Lille,Home,Monaco,8
-2024-12-08,Lille,Away,Saint-Étienne,7
-2024-12-14,Lille,Home,Lille,6
-2024-12-22,Lille,Away,Saint-Étienne,8
-2025-01-05,Lille,Home,Le Havre,14
-2025-01-11,Lille,Away,Rennes,6
-2025-01-14,Lille,Home,Lille,3
-2025-01-19,Lille,Home,Strasbourg,5
-2025-01-26,Lille,Away,Nice,7
-2025-02-02,Lille,Home,Lyon,7
-2025-02-09,Lille,Away,Angers,7
-2025-02-15,Lille,Home,Saint-Étienne,6
-2025-02-22,Lille,Away,Auxerre,7
-2025-03-02,Lille,Home,Nantes,8
-2025-03-08,Lille,Home,Lens,6
-2025-03-16,Lille,Away,Paris S-G,8
-2025-03-29,Lille,Away,Reims,13
-2025-04-06,Lille,Home,Toulouse,8
-2025-04-12,Lille,Away,Monaco,6
-2025-04-19,Lille,Home,Montpellier,7
-2025-04-27,Lille,Home,Brest,8
-2025-05-04,Lille,Away,Lille,7
-2025-05-10,Lille,Away,Le Havre,6
-2025-05-17,Lille,Home,Rennes,7
+2024-08-06,Lille,Home,tr Fenerbahçe,0
+2024-08-13,Lille,Away,tr Fenerbahçe,7
+2024-08-17,Lille,Away,Reims,4
+2024-08-20,Lille,Home,cz Slavia Prague,3
+2024-08-24,Lille,Home,Angers,4
+2024-08-28,Lille,Away,cz Slavia Prague,4
+2024-09-01,Lille,Home,Paris S-G,4
+2024-09-13,Lille,Away,Saint-Étienne,12
+2024-09-17,Lille,Away,pt Sporting CP,4
+2024-09-21,Lille,Home,Strasbourg,4
+2024-09-28,Lille,Away,Le Havre,7
+2024-10-02,Lille,Home,es Real Madrid,4
+2024-10-05,Lille,Home,Toulouse,3
+2024-10-18,Lille,Away,Monaco,13
+2024-10-23,Lille,Away,es Atlético Madrid,5
+2024-10-26,Lille,Away,Lens,3
+2024-11-01,Lille,Home,Lyon,6
+2024-11-05,Lille,Home,it Juventus,4
+2024-11-10,Lille,Away,Nice,5
+2024-11-24,Lille,Home,Rennes,14
+2024-11-27,Lille,Away,it Bologna,3
+2024-12-01,Lille,Away,Montpellier,4
+2024-12-06,Lille,Home,Brest,5
+2024-12-11,Lille,Home,at Sturm Graz,5
+2024-12-14,Lille,Away,Marseille,3
+2024-12-20,Lille,Away,FC Rouen,6
+2025-01-04,Lille,Home,Nantes,15
+2025-01-10,Lille,Away,Auxerre,6
+2025-01-14,Lille,Away,Marseille,4
+2025-01-17,Lille,Home,Nice,3
+2025-01-21,Lille,Away,eng Liverpool,4
+2025-01-25,Lille,Away,Strasbourg,4
+2025-01-29,Lille,Home,nl Feyenoord,4
+2025-02-01,Lille,Home,Saint-Étienne,3
+2025-02-04,Lille,Home,Dunkerque,3
+2025-02-08,Lille,Home,Le Havre,4
+2025-02-16,Lille,Away,Rennes,8
+2025-02-22,Lille,Home,Monaco,6
+2025-03-01,Lille,Away,Paris S-G,7
+2025-03-04,Lille,Away,de Dortmund,3
+2025-03-08,Lille,Home,Montpellier,4
+2025-03-12,Lille,Home,de Dortmund,4
+2025-03-15,Lille,Away,Nantes,3
+2025-03-30,Lille,Home,Lens,15
+2025-04-05,Lille,Away,Lyon,6
+2025-04-12,Lille,Away,Toulouse,7
+2025-04-20,Lille,Home,Auxerre,8
+2025-04-27,Lille,Away,Angers,7
+2025-05-04,Lille,Home,Marseille,7
+2025-05-10,Lille,Away,Brest,6
+2025-05-17,Lille,Home,Reims,7

@@ -21,10 +21,8 @@ options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) App
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 
-def team_matches_scraper(team):
+def team_matches_scraper(url,team):
     # URL to scrape
-    url = f"https://fbref.com/en/squads/5725cc7b/2024-2025/matchlogs/all_comps/misc/{team}-Match-Logs-All-Competitions"
-
     driver.get(url)
 
     time.sleep(3)
@@ -93,28 +91,28 @@ def team_matches_scraper(team):
     df.to_csv(output_file, index=False)
     print(f"Data saved to {output_file}")
 
-Ligue1_teams_2024 = [
-    "Paris-Saint-Germain",
-    "Marseille",
-    "Monaco",
-    "Nice",
-    "Lille",
-    "Lyon",
-    "Strasbourg",
-    "Lens",
-    "Rennes",
-    "Toulouse",
-    "Brest",
-    "Le-Havre",
-    "Nantes",
-    "Auxerre",
-    "Angers",
-    "Reims",
-    "Montpellier",
-    "Saint-Etienne"
-]
+Ligue1_teams_2024 = {
+    "Paris-Saint-Germain" : "https://fbref.com/en/squads/e2d8892c/2024-2025/matchlogs/all_comps/schedule/Paris-Saint-Germain-Scores-and-Fixtures-All-Competitions",
+    "Marseille" : "https://fbref.com/en/squads/5725cc7b/2024-2025/matchlogs/all_comps/schedule/Marseille-Scores-and-Fixtures-All-Competitions",
+    "Monaco" : "https://fbref.com/en/squads/fd6114db/2024-2025/matchlogs/all_comps/schedule/Monaco-Scores-and-Fixtures-All-Competitions",
+    "Nice" : "https://fbref.com/en/squads/132ebc33/2024-2025/matchlogs/all_comps/schedule/Nice-Scores-and-Fixtures-All-Competitions",
+    "Lille" : "https://fbref.com/en/squads/cb188c0c/2024-2025/matchlogs/all_comps/schedule/Lille-Scores-and-Fixtures-All-Competitions",
+    "Lyon" : "https://fbref.com/en/squads/d53c0b06/2024-2025/matchlogs/all_comps/schedule/Lyon-Scores-and-Fixtures-All-Competitions",
+    "Strasbourg" : "https://fbref.com/en/squads/c0d3eab4/2024-2025/matchlogs/all_comps/schedule/Strasbourg-Scores-and-Fixtures-All-Competitions",
+    "Lens" : "https://fbref.com/en/squads/fd4e0f7d/2024-2025/matchlogs/all_comps/schedule/Lens-Scores-and-Fixtures-All-Competitions",
+    "Rennes" : "https://fbref.com/en/squads/b3072e00/2024-2025/matchlogs/all_comps/schedule/Rennes-Scores-and-Fixtures-All-Competitions",
+    "Toulouse" : "https://fbref.com/en/squads/3f8c4b5f/2024-2025/matchlogs/all_comps/schedule/Toulouse-Scores-and-Fixtures-All-Competitions",
+    "Brest" : "https://fbref.com/en/squads/fb08dbb3/2024-2025/matchlogs/all_comps/schedule/Brest-Scores-and-Fixtures-All-Competitions",
+    "Le-Havre" : "https://fbref.com/en/squads/5c2737db/2024-2025/matchlogs/all_comps/schedule/Le-Havre-Scores-and-Fixtures-All-Competitions",
+    "Nantes" : "https://fbref.com/en/squads/d7a486cd/2024-2025/matchlogs/all_comps/schedule/Nantes-Scores-and-Fixtures-All-Competitions",
+    "Auxerre" : "https://fbref.com/en/squads/5ae09109/2024-2025/matchlogs/all_comps/schedule/Auxerre-Scores-and-Fixtures-All-Competitions",
+    "Angers" : "https://fbref.com/en/squads/69236f98/2024-2025/matchlogs/all_comps/schedule/Angers-Scores-and-Fixtures-All-Competitions",
+    "Reims" : "https://fbref.com/en/squads/7fdd64e0/2024-2025/matchlogs/all_comps/schedule/Reims-Scores-and-Fixtures-All-Competitions",
+    "Montpellier" : "https://fbref.com/en/squads/281b0e73/2024-2025/matchlogs/all_comps/schedule/Montpellier-Scores-and-Fixtures-All-Competitions",
+    "Saint-Etienne" : "https://fbref.com/en/squads/d298ef2c/2024-2025/matchlogs/all_comps/schedule/Saint-Etienne-Scores-and-Fixtures-All-Competitions"
+}
 
-for team in Ligue1_teams_2024:
-    team_matches_scraper(team)
+for team, url in Ligue1_teams_2024.items():
+    team_matches_scraper(url, team)
 
 

@@ -1,37 +1,39 @@
 date,team,venue_team,opponent,rest_days_Angers
-2024-08-17,Angers,Away,Brest,0
-2024-08-25,Angers,Home,Reims,8
-2024-08-31,Angers,Away,Toulouse,6
-2024-09-14,Angers,Home,Nice,14
-2024-09-22,Angers,Away,Lyon,8
-2024-09-29,Angers,Away,Strasbourg,7
-2024-10-04,Angers,Home,Angers,5
-2024-10-20,Angers,Away,Montpellier,16
-2024-10-27,Angers,Home,Paris S-G,7
-2024-11-03,Angers,Away,Nantes,7
-2024-11-08,Angers,Home,Auxerre,5
-2024-11-23,Angers,Away,Lens,15
-2024-12-01,Angers,Home,Monaco,8
-2024-12-08,Angers,Away,Saint-Étienne,7
-2024-12-14,Angers,Home,Lille,6
-2024-12-22,Angers,Away,Saint-Étienne,8
-2025-01-05,Angers,Home,Le Havre,14
-2025-01-11,Angers,Away,Rennes,6
-2025-01-14,Angers,Home,Lille,3
-2025-01-19,Angers,Home,Strasbourg,5
-2025-01-26,Angers,Away,Nice,7
-2025-02-02,Angers,Home,Lyon,7
-2025-02-09,Angers,Away,Angers,7
-2025-02-15,Angers,Home,Saint-Étienne,6
-2025-02-22,Angers,Away,Auxerre,7
-2025-03-02,Angers,Home,Nantes,8
-2025-03-08,Angers,Home,Lens,6
-2025-03-16,Angers,Away,Paris S-G,8
-2025-03-29,Angers,Away,Reims,13
-2025-04-06,Angers,Home,Toulouse,8
-2025-04-12,Angers,Away,Monaco,6
-2025-04-19,Angers,Home,Montpellier,7
-2025-04-27,Angers,Home,Brest,8
-2025-05-04,Angers,Away,Lille,7
-2025-05-10,Angers,Away,Le Havre,6
-2025-05-17,Angers,Home,Rennes,7
+2024-08-18,Angers,Home,Lens,0
+2024-08-24,Angers,Away,Lille,6
+2024-09-01,Angers,Home,Nice,8
+2024-09-15,Angers,Away,Strasbourg,14
+2024-09-22,Angers,Home,Nantes,7
+2024-09-29,Angers,Home,Reims,7
+2024-10-04,Angers,Away,Marseille,5
+2024-10-20,Angers,Away,Toulouse,16
+2024-10-26,Angers,Home,Saint-Étienne,6
+2024-11-01,Angers,Away,Monaco,6
+2024-11-09,Angers,Home,Paris S-G,8
+2024-11-24,Angers,Away,Auxerre,15
+2024-12-01,Angers,Away,Le Havre,7
+2024-12-07,Angers,Home,Lyon,6
+2024-12-15,Angers,Away,Rennes,8
+2024-12-22,Angers,Away,FC 93,7
+2025-01-05,Angers,Home,Brest,14
+2025-01-12,Angers,Away,Montpellier,7
+2025-01-15,Angers,Away,Quevilly-Rouen,3
+2025-01-19,Angers,Home,Auxerre,4
+2025-01-26,Angers,Away,Lens,7
+2025-02-02,Angers,Home,Le Havre,7
+2025-02-05,Angers,Away,Strasbourg,3
+2025-02-09,Angers,Home,Marseille,4
+2025-02-16,Angers,Away,Reims,7
+2025-02-22,Angers,Away,Saint-Étienne,6
+2025-02-25,Angers,Home,Reims,3
+2025-03-02,Angers,Home,Toulouse,5
+2025-03-09,Angers,Away,Brest,7
+2025-03-15,Angers,Home,Monaco,6
+2025-03-30,Angers,Home,Rennes,15
+2025-04-05,Angers,Away,Paris S-G,6
+2025-04-13,Angers,Home,Montpellier,8
+2025-04-20,Angers,Away,Nice,7
+2025-04-27,Angers,Home,Lille,7
+2025-05-04,Angers,Away,Nantes,7
+2025-05-10,Angers,Home,Strasbourg,6
+2025-05-17,Angers,Away,Lyon,7

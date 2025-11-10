@@ -1,37 +1,38 @@
 date,team,venue_team,opponent,rest_days_Toulouse
-2024-08-17,Toulouse,Away,Brest,0
-2024-08-25,Toulouse,Home,Reims,8
-2024-08-31,Toulouse,Away,Toulouse,6
-2024-09-14,Toulouse,Home,Nice,14
-2024-09-22,Toulouse,Away,Lyon,8
-2024-09-29,Toulouse,Away,Strasbourg,7
-2024-10-04,Toulouse,Home,Angers,5
-2024-10-20,Toulouse,Away,Montpellier,16
-2024-10-27,Toulouse,Home,Paris S-G,7
-2024-11-03,Toulouse,Away,Nantes,7
-2024-11-08,Toulouse,Home,Auxerre,5
-2024-11-23,Toulouse,Away,Lens,15
-2024-12-01,Toulouse,Home,Monaco,8
-2024-12-08,Toulouse,Away,Saint-Étienne,7
-2024-12-14,Toulouse,Home,Lille,6
-2024-12-22,Toulouse,Away,Saint-Étienne,8
-2025-01-05,Toulouse,Home,Le Havre,14
-2025-01-11,Toulouse,Away,Rennes,6
-2025-01-14,Toulouse,Home,Lille,3
-2025-01-19,Toulouse,Home,Strasbourg,5
-2025-01-26,Toulouse,Away,Nice,7
-2025-02-02,Toulouse,Home,Lyon,7
-2025-02-09,Toulouse,Away,Angers,7
-2025-02-15,Toulouse,Home,Saint-Étienne,6
-2025-02-22,Toulouse,Away,Auxerre,7
-2025-03-02,Toulouse,Home,Nantes,8
-2025-03-08,Toulouse,Home,Lens,6
-2025-03-16,Toulouse,Away,Paris S-G,8
-2025-03-29,Toulouse,Away,Reims,13
-2025-04-06,Toulouse,Home,Toulouse,8
-2025-04-12,Toulouse,Away,Monaco,6
-2025-04-19,Toulouse,Home,Montpellier,7
-2025-04-27,Toulouse,Home,Brest,8
-2025-05-04,Toulouse,Away,Lille,7
-2025-05-10,Toulouse,Away,Le Havre,6
-2025-05-17,Toulouse,Home,Rennes,7
+2024-08-18,Toulouse,Home,Nantes,0
+2024-08-25,Toulouse,Away,Nice,7
+2024-08-31,Toulouse,Home,Marseille,6
+2024-09-15,Toulouse,Home,Le Havre,15
+2024-09-22,Toulouse,Away,Brest,7
+2024-09-29,Toulouse,Home,Lyon,7
+2024-10-05,Toulouse,Away,Lille,6
+2024-10-20,Toulouse,Home,Angers,15
+2024-10-27,Toulouse,Away,Montpellier,7
+2024-11-03,Toulouse,Home,Reims,7
+2024-11-10,Toulouse,Away,Rennes,7
+2024-11-22,Toulouse,Away,Paris S-G,12
+2024-12-01,Toulouse,Home,Auxerre,9
+2024-12-07,Toulouse,Away,Monaco,6
+2024-12-13,Toulouse,Home,Saint-Étienne,6
+2024-12-21,Toulouse,Away,Ht Lyonnais,8
+2025-01-05,Toulouse,Away,Lens,15
+2025-01-12,Toulouse,Home,Strasbourg,7
+2025-01-15,Toulouse,Home,Stade Laval,3
+2025-01-18,Toulouse,Away,Lyon,3
+2025-01-26,Toulouse,Home,Montpellier,8
+2025-02-02,Toulouse,Home,Nice,7
+2025-02-05,Toulouse,Home,Guingamp,3
+2025-02-09,Toulouse,Away,Auxerre,4
+2025-02-15,Toulouse,Home,Paris S-G,6
+2025-02-23,Toulouse,Away,Le Havre,8
+2025-03-02,Toulouse,Away,Angers,7
+2025-03-07,Toulouse,Home,Monaco,5
+2025-03-16,Toulouse,Away,Strasbourg,9
+2025-03-30,Toulouse,Home,Brest,14
+2025-04-06,Toulouse,Away,Marseille,7
+2025-04-12,Toulouse,Home,Lille,6
+2025-04-20,Toulouse,Away,Reims,8
+2025-04-27,Toulouse,Away,Nantes,7
+2025-05-03,Toulouse,Home,Rennes,6
+2025-05-10,Toulouse,Home,Lens,7
+2025-05-17,Toulouse,Away,Saint-Étienne,7
