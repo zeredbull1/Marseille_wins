@@ -1,5 +1,5 @@
 date,team,venue_team,opponent,rest_days_team
-2024-08-17,Monaco,Home,Saint-Étienne,0
+2024-08-17,Monaco,Home,St Etienne,0
 2024-08-24,Monaco,Away,Lyon,7
 2024-09-01,Monaco,Home,Lens,8
 2024-09-14,Monaco,Away,Auxerre,13
@@ -20,9 +20,9 @@ date,team,venue_team,opponent,rest_days_team
 2024-12-07,Monaco,Home,Toulouse,6
 2024-12-11,Monaco,Away,eng Arsenal,4
 2024-12-14,Monaco,Away,Reims,3
-2024-12-18,Monaco,Home,Paris S-G,4
+2024-12-18,Monaco,Home,Paris SG,4
 2024-12-22,Monaco,Away,L'Union,4
-2025-01-05,Monaco,Neutral,Paris S-G,14
+2025-01-05,Monaco,Neutral,Paris SG,14
 2025-01-10,Monaco,Away,Nantes,5
 2025-01-14,Monaco,Away,Reims,4
 2025-01-17,Monaco,Away,Montpellier,3
@@ -30,7 +30,7 @@ date,team,venue_team,opponent,rest_days_team
 2025-01-25,Monaco,Home,Rennes,4
 2025-01-29,Monaco,Away,it Inter,4
 2025-02-01,Monaco,Home,Auxerre,3
-2025-02-07,Monaco,Away,Paris S-G,6
+2025-02-07,Monaco,Away,Paris SG,6
 2025-02-12,Monaco,Home,pt Benfica,5
 2025-02-15,Monaco,Home,Nantes,3
 2025-02-18,Monaco,Away,pt Benfica,3
@@ -43,6 +43,6 @@ date,team,venue_team,opponent,rest_days_team
 2025-04-12,Monaco,Home,Marseille,7
 2025-04-19,Monaco,Home,Strasbourg,7
 2025-04-26,Monaco,Away,Le Havre,7
-2025-05-03,Monaco,Away,Saint-Étienne,7
+2025-05-03,Monaco,Away,St Etienne,7
 2025-05-10,Monaco,Home,Lyon,7
 2025-05-17,Monaco,Away,Lens,7

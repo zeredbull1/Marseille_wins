@@ -8,18 +8,18 @@ date,team,venue_team,opponent,rest_days_team
 2024-09-21,Lens,Away,Rennes,6
 2024-09-28,Lens,Home,Nice,7
 2024-10-06,Lens,Away,Strasbourg,8
-2024-10-19,Lens,Away,Saint-Étienne,13
+2024-10-19,Lens,Away,St Etienne,13
 2024-10-26,Lens,Home,Lille,7
-2024-11-02,Lens,Away,Paris S-G,7
+2024-11-02,Lens,Away,Paris SG,7
 2024-11-09,Lens,Home,Nantes,7
 2024-11-23,Lens,Home,Marseille,14
 2024-11-29,Lens,Away,Reims,6
 2024-12-08,Lens,Home,Montpellier,9
 2024-12-14,Lens,Away,Auxerre,6
-2024-12-22,Lens,Home,Paris S-G,8
+2024-12-22,Lens,Home,Paris SG,8
 2025-01-05,Lens,Home,Toulouse,14
 2025-01-12,Lens,Away,Le Havre,7
-2025-01-18,Lens,Home,Paris S-G,6
+2025-01-18,Lens,Home,Paris SG,6
 2025-01-26,Lens,Home,Angers,8
 2025-01-31,Lens,Away,Montpellier,5
 2025-02-08,Lens,Away,Nice,8
@@ -29,7 +29,7 @@ date,team,venue_team,opponent,rest_days_team
 2025-03-08,Lens,Away,Marseille,7
 2025-03-15,Lens,Home,Rennes,7
 2025-03-30,Lens,Away,Lille,15
-2025-04-06,Lens,Home,Saint-Étienne,7
+2025-04-06,Lens,Home,St Etienne,7
 2025-04-11,Lens,Home,Reims,5
 2025-04-20,Lens,Away,Brest,9
 2025-04-27,Lens,Home,Auxerre,7

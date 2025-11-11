@@ -3,7 +3,7 @@ date,team,venue_team,opponent,rest_days_team
 2024-08-25,Reims,Away,Marseille,8
 2024-09-01,Reims,Home,Rennes,7
 2024-09-15,Reims,Away,Nantes,14
-2024-09-21,Reims,Home,Paris S-G,6
+2024-09-21,Reims,Home,Paris SG,6
 2024-09-29,Reims,Away,Angers,8
 2024-10-06,Reims,Home,Montpellier,7
 2024-10-20,Reims,Away,Auxerre,14
@@ -15,11 +15,11 @@ date,team,venue_team,opponent,rest_days_team
 2024-12-08,Reims,Away,Strasbourg,9
 2024-12-14,Reims,Home,Monaco,6
 2024-12-22,Reims,Away,AS Mutzig,8
-2025-01-04,Reims,Away,Saint-Étienne,13
+2025-01-04,Reims,Away,St Etienne,13
 2025-01-11,Reims,Home,Nice,7
 2025-01-14,Reims,Home,Monaco,3
 2025-01-19,Reims,Home,Le Havre,5
-2025-01-25,Reims,Away,Paris S-G,6
+2025-01-25,Reims,Away,Paris SG,6
 2025-02-02,Reims,Home,Nantes,8
 2025-02-06,Reims,Away,Bourgoin-Jal.,4
 2025-02-09,Reims,Away,Lyon,3
@@ -36,8 +36,8 @@ date,team,venue_team,opponent,rest_days_team
 2025-04-20,Reims,Home,Toulouse,9
 2025-04-27,Reims,Away,Montpellier,7
 2025-05-02,Reims,Away,Nice,5
-2025-05-10,Reims,Home,Saint-Étienne,8
+2025-05-10,Reims,Home,St Etienne,8
 2025-05-17,Reims,Away,Lille,7
 2025-05-21,Reims,Away,Metz,4
-2025-05-24,Reims,Neutral,Paris S-G,3
+2025-05-24,Reims,Neutral,Paris SG,3
 2025-05-29,Reims,Home,Metz,5

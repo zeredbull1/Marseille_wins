@@ -1,8 +1,8 @@
 date,team,venue_team,opponent,rest_days_team
 2024-08-17,Brest,Home,Marseille,0
 2024-08-25,Brest,Away,Lens,8
-2024-08-31,Brest,Home,Saint-Étienne,6
-2024-09-14,Brest,Away,Paris S-G,14
+2024-08-31,Brest,Home,St Etienne,6
+2024-09-14,Brest,Away,Paris SG,14
 2024-09-19,Brest,Home,at Sturm Graz,5
 2024-09-22,Brest,Home,Toulouse,3
 2024-09-27,Brest,Away,Auxerre,5
@@ -28,12 +28,12 @@ date,team,venue_team,opponent,rest_days_team
 2025-01-22,Brest,Away,ua Shakhtar,4
 2025-01-26,Brest,Away,Le Havre,4
 2025-01-29,Brest,Home,es Real Madrid,3
-2025-02-01,Brest,Home,Paris S-G,3
+2025-02-01,Brest,Home,Paris SG,3
 2025-02-04,Brest,Away,Troyes,3
 2025-02-07,Brest,Away,Nantes,3
-2025-02-11,Brest,Home,fr Paris S-G,4
+2025-02-11,Brest,Home,fr Paris SG,4
 2025-02-14,Brest,Home,Auxerre,3
-2025-02-19,Brest,Away,fr Paris S-G,5
+2025-02-19,Brest,Away,fr Paris SG,5
 2025-02-23,Brest,Away,Strasbourg,4
 2025-02-26,Brest,Home,Dunkerque,3
 2025-03-02,Brest,Away,Lyon,4
@@ -41,7 +41,7 @@ date,team,venue_team,opponent,rest_days_team
 2025-03-16,Brest,Home,Reims,7
 2025-03-30,Brest,Away,Toulouse,14
 2025-04-05,Brest,Home,Monaco,6
-2025-04-13,Brest,Away,Saint-Étienne,8
+2025-04-13,Brest,Away,St Etienne,8
 2025-04-20,Brest,Home,Lens,7
 2025-04-27,Brest,Away,Marseille,7
 2025-05-04,Brest,Home,Montpellier,7

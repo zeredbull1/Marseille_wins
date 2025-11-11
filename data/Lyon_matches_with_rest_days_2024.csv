@@ -13,13 +13,13 @@ date,team,venue_team,opponent,rest_days_team
 2024-10-27,Lyon,Home,Auxerre,3
 2024-11-01,Lyon,Away,Lille,5
 2024-11-07,Lyon,Away,de Hoffenheim,6
-2024-11-10,Lyon,Home,Saint-Étienne,3
+2024-11-10,Lyon,Home,St Etienne,3
 2024-11-23,Lyon,Away,Reims,13
 2024-11-28,Lyon,Away,az Qarabağ,5
 2024-12-01,Lyon,Home,Nice,3
 2024-12-07,Lyon,Away,Angers,6
 2024-12-12,Lyon,Home,de Eint Frankfurt,5
-2024-12-15,Lyon,Away,Paris S-G,3
+2024-12-15,Lyon,Away,Paris SG,3
 2024-12-21,Lyon,Away,SC Feignies,6
 2025-01-04,Lyon,Home,Montpellier,14
 2025-01-11,Lyon,Away,Brest,7
@@ -31,7 +31,7 @@ date,team,venue_team,opponent,rest_days_team
 2025-02-02,Lyon,Away,Marseille,3
 2025-02-09,Lyon,Home,Reims,7
 2025-02-16,Lyon,Away,Montpellier,7
-2025-02-23,Lyon,Home,Paris S-G,7
+2025-02-23,Lyon,Home,Paris SG,7
 2025-03-02,Lyon,Home,Brest,7
 2025-03-06,Lyon,Away,ro FCSB,4
 2025-03-09,Lyon,Away,Nice,3
@@ -42,7 +42,7 @@ date,team,venue_team,opponent,rest_days_team
 2025-04-10,Lyon,Home,eng Manchester Utd,5
 2025-04-13,Lyon,Away,Auxerre,3
 2025-04-17,Lyon,Away,eng Manchester Utd,4
-2025-04-20,Lyon,Away,Saint-Étienne,3
+2025-04-20,Lyon,Away,St Etienne,3
 2025-04-26,Lyon,Home,Rennes,6
 2025-05-04,Lyon,Home,Lens,8
 2025-05-10,Lyon,Away,Monaco,6

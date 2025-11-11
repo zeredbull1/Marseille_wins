@@ -5,20 +5,20 @@ date,team,venue_team,opponent,rest_days_team
 2024-09-14,Auxerre,Home,Monaco,13
 2024-09-22,Auxerre,Away,Montpellier,8
 2024-09-27,Auxerre,Home,Brest,5
-2024-10-05,Auxerre,Away,Saint-Étienne,8
+2024-10-05,Auxerre,Away,St Etienne,8
 2024-10-20,Auxerre,Home,Reims,15
 2024-10-27,Auxerre,Away,Lyon,7
 2024-11-03,Auxerre,Home,Rennes,7
 2024-11-08,Auxerre,Away,Marseille,5
 2024-11-24,Auxerre,Home,Angers,16
 2024-12-01,Auxerre,Away,Toulouse,7
-2024-12-06,Auxerre,Home,Paris S-G,5
+2024-12-06,Auxerre,Home,Paris SG,5
 2024-12-14,Auxerre,Home,Lens,8
 2024-12-22,Auxerre,Home,Dunkerque,8
 2025-01-05,Auxerre,Away,Strasbourg,14
 2025-01-10,Auxerre,Home,Lille,5
 2025-01-19,Auxerre,Away,Angers,9
-2025-01-24,Auxerre,Home,Saint-Étienne,5
+2025-01-24,Auxerre,Home,St Etienne,5
 2025-02-01,Auxerre,Away,Monaco,8
 2025-02-09,Auxerre,Home,Toulouse,8
 2025-02-14,Auxerre,Away,Brest,5
@@ -33,4 +33,4 @@ date,team,venue_team,opponent,rest_days_team
 2025-04-27,Auxerre,Away,Lens,7
 2025-05-04,Auxerre,Home,Le Havre,7
 2025-05-10,Auxerre,Home,Nantes,6
-2025-05-17,Auxerre,Away,Paris S-G,7
+2025-05-17,Auxerre,Away,Paris SG,7
